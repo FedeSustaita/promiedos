@@ -1,0 +1,106 @@
+body {
+    color: rgb(255, 255, 255);
+    /* background:
+    conic-gradient(from 135deg,#166739 90deg,#0000 0) 13px calc(13px/2),
+    conic-gradient(from 135deg,#1d6230 90deg,#0000 0),
+    conic-gradient(from 135deg at 50% 0,#166739 90deg,#0000 0) #1F7A1F;
+background-size: 26px 13px;
+font-family: arial; */
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+    padding: 1vw;
+    background-color: #166739;
+    border: #104b2a solid;
+}
+header img{
+    width: 22vw; 
+}
+h1{
+    text-align: center;
+    width: 25vw;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    justify-content: start;
+    width: 75vw;
+}
+.nav a{
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+    list-style: none;
+    text-decoration: none;
+    align-self: flex-end;
+    color: white;
+}
+.nav a:hover{
+    border-radius: 0.5vw;
+    background-color: #008b25;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease;
+}
+h2{
+    text-align: center;
+}
+/* tabla */
+table{
+    width: 50vw;
+    text-align: start;
+}
+thead{
+    width: 100%;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse; 
+}
+
+th, td {
+    border: 1px solid rgb(255, 255, 255); 
+    padding: 8px; 
+    text-align: left; 
+    background-color:grey;
+}
+th{
+    text-align:center;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    padding: 2vw;
+}
+
+#uniones{
+    display: flex;
+    border: solid;
+    border-width: 0.1vw;
+    justify-content: center;
+}
+.contenedoras{
+    display: flex;
+    justify-content: center;
+
+}
+.contenedoras div{
+    border: solid;
+    border-width: 0.1vw;
+    width:25%;
+    text-align: center;
+    padding:1vw;
+    align-self:center;
+
+}
+.contenedoras .vs{
+    width:10%;
+}
+.vs p{
+    margin:0;
+}
