@@ -96,7 +96,7 @@ if ($conexion) {
                     font-family:"arial";
                     /* display:flex; */
                     /* flex-direction: column; */
-                    align-items:center;
+                    align-items:center; 
                 }
                 .equipo{
                     display:flex; 
